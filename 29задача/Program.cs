@@ -20,8 +20,11 @@ int num1 = int.Parse(Console.ReadLine());
 Console.WriteLine("Введите диапазон чисел до:");
 int num2 = int.Parse(Console.ReadLine());
 
+Console.Write("[");
 
 foreach (int item in getArray(length, num1, num2))
 {
     Console.Write(item);
 }
+
+Console.Write("]");
